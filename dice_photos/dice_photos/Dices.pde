@@ -5,6 +5,7 @@ class Dice {
     dice_length = dice_length_value;
   }
 
+// desenha o dado na tela
   void displayDice(int dice_value, float diceX, float diceY) {
     switch(dice_value) {
     case 1: 
@@ -28,6 +29,7 @@ class Dice {
     }
   }
 
+// instruções pra desenhar cada face do dado
   void numb_one(float x, float y) {
     noStroke();
     fill(0);

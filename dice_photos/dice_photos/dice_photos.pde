@@ -18,6 +18,7 @@ void setup() {
 void draw() {
   bg();
   
+// desenha os dados com valores aleatorios
   //for (int h = 0; h < height/diceSize; h++) {
   //  for (int w = 0; w < width/diceSize; w ++) {
 
@@ -27,6 +28,7 @@ void draw() {
   //  }
   //}
 
+// desenha os dados em ordem crescente na tela
   for (int h = 0; h < height/diceSize; h++) {
     for (int w = 0; w < width/diceSize; w ++) {
 
@@ -48,6 +50,7 @@ void draw() {
   //}
 }
 
+// background com alpha
 void bg() {
   pushMatrix();
   rectMode(CORNER);
